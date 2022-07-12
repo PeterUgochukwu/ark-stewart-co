@@ -1,0 +1,129 @@
+@media only screen and (max-width:600px){
+
+}
+@media only screen and (max-width:538px){
+    .header{
+    width: 100%;  
+}
+    .mobile-view{
+        display: block;
+        
+    }
+    .mobileView-wrapper{
+        background-color: white;
+         position: sticky;
+         top: 0;
+         z-index: 999;
+    }
+    .mini-nav,.line-break, .main-nav{
+        display: none;
+    }
+    .slider{
+        width: 100%;
+
+    }
+    .main-nLeft{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .nLeft-logo{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nLeft-logo > a > img{
+    text-decoration: none;
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+}
+.nLeftTitle a {
+    text-decoration-line: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 12px;
+}
+    .mySlides > img{
+        width: 200%;
+    }
+    .contactButton{
+    width: 50%;
+    height: 50px;
+    background: rgb(30, 130, 245);
+    margin-left: 10px;
+    margin-right: 0;
+    outline: none;
+    border: none;
+}
+.contactButton a{
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.contactButton:hover{
+    background: rgb(2, 2, 31);
+}
+.mob-line{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(197, 196, 196);
+}
+.mob-nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mob-navRight{
+    margin-left: 30px;
+    font-size: 30px;
+}
+.icon-re{
+    margin-left: 0;
+    font-size: 30px;
+    display: none;
+}
+.mob-navLeft{
+    width: 25%;
+}
+.mob-navLeft a{
+    color: black;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.mobile-navi{
+    display: none;
+}
+.mobile-navi nav{
+    background-color: rgb(245, 245, 245);
+    padding: 20px 0;
+}
+.mobile-navi nav ul{
+    list-style-type: none;
+    margin-left: 40px;
+}
+.mobile-navi nav ul li{
+    margin-top: 10px;
+}
+.mobile-navi nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.mobile-navi nav ul li a:hover{
+    color: blue;
+}
+}
+@media only screen and (max-width:325px){
+    .mob-navRight{
+    margin-left: 15px;
+}
+.mob-navLeft{
+    width: 40%;
+}
+}

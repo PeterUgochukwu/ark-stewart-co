@@ -1,0 +1,920 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif ;
+}
+.aHeader{
+    height: 28vh;
+    width:100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.mobile-icon{
+    display: none;
+}
+.aHeader-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 20px 20px;
+
+}
+.aleft{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aLeftLogo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aLeftLogo > a img{
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.aLeftLogo > a {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.aLeftLogo > a p{
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.aLeftLine{
+    width: 2px;
+    height: 40px;
+    background: rgba(161, 159, 159, 0.1);
+}
+.aleftDesc{
+    margin-left: 10px;
+}
+.aleftDesc p{
+    font-weight: bold;
+    width: 70%;
+    line-height: 13px;
+    font-size: 14px;
+}
+.aMiddle{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.aMiddleAddress{
+    margin-right: 10px;
+}
+.aMiddleAddress p{
+    font-weight: bold;
+}
+.mainAdd{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.aMiddleLine{
+    width: 1px;
+    height: 40px;
+    background: black;
+}
+ .aHeader button a {
+    width: 10%;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.contactButton{
+    width: 15%;
+    height: 90px;
+    background: rgb(30, 130, 245);
+    margin-left: 10px;
+    margin-right: 0;
+    outline: none;
+    border: none;
+}
+.contactButton a{
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.contactButton:hover{
+    background: rgb(2, 2, 31);
+}
+.aHeaderLine{
+    width: 100%;
+    height: 2px;
+     background: rgba(161, 159, 159, 0.1);
+     margin-top: -20px;
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.header-main nav ul{
+    list-style-type: none;
+
+}
+.header-main nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.header-main nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 0px 30px 0px;
+    font-weight: bold;
+}
+.header-main nav ul li a:hover{
+    border-bottom: 2px solid blue;
+}
+.header-icon{
+    padding-right: 40px;
+}
+.header-icon a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.aboutUs-Title{
+    height: 50vh;
+     background-image:linear-gradient(8deg, rgba(4,4,4,0.7651435574229692) 0%, rgba(0,0,0,0.8743872549019608) 35%), url("../images/supreme_court_abuja_660497981.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutUs-Title h1{
+    font-family: 'Joan', sans-serif;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.mainSec{
+    height: 100vh;
+    background:rgb(2, 2, 20);
+    color: white;
+    overflow: hidden;
+}
+.mainSec-title{
+    padding: 20px 40px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-left: 50px;
+}
+.mainSec-title a{
+    text-decoration: none;
+    color:rgb(212, 211, 211);
+    font-size: 16px;
+    margin-right: 10px;
+}
+.mainSec-title div{
+    width: 1px;
+    height: 30px;
+    background: white;
+    margin-right: 10px;
+
+}
+.mainSec-title p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.mainSec-wrapper{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a-mainSecL,.a-mainSecR{
+    flex:1;
+}
+.a-mainSecL{
+    background: white;
+    padding: 50px 80px;
+    color: black;
+}
+.a-mainSecTitle{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.a-mainSecSub{
+    font-family: 'Joan',sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+    padding-right: 20px;
+}
+.a-mainSecDesc{
+    font-size: 16px;
+    width: 90%;
+    line-height: 25px;
+}
+.a-mainSecR img{
+    width: 200%;
+    height: 520px;
+}
+.a-mainSecL button{
+    background: inherit;
+    padding: 15px 30px;
+    outline: none;
+    border: 2px solid blue;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.a-mainSecL button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+.a-mainSecL button:hover, .a-mainSecL button a:hover{
+    background: blue;
+    color: white;
+}
+.serviceTab{
+    padding: 10px;
+    background: rgb(224, 223, 223);
+    overflow: hidden;
+}
+.serviceWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    margin-bottom: 5px;
+}
+.s-title h1{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serviceWrapper a{
+    text-decoration: none;
+}
+.serviceWrapper a div{
+    background-color: white;
+    padding: 20px 10px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serviceWrapper a div:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.serviceWrapper a div img{
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+}
+.serviceWrapper a div h2{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.serviceWrapper a div p{
+    text-decoration: none;
+    width: 70%;
+    text-align: center;
+    color: black;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.booking{
+    height: 30vh;
+    background: linear-gradient(90deg, rgba(6,2,34,1) 0%, rgba(19,8,93,1) 55%);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.booking-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1px solid rgb(201, 198, 198);
+}
+.booking-left:last-child{
+    border-right: none;
+}
+.booking-left img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.booking-left a{
+    text-decoration: none;
+}
+.booking-left a p{
+    font-family: 'Joan', sans-serif;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
+    margin-right: 100px;
+}
+.booking-left a .book-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ .booking-left a p:hover{
+    color: rgb(40, 136, 245);
+}
+
+
+.footer{
+    height: 100vh;
+    background-image: linear-gradient(90deg,rgba(64,63,65,0.7651435574229692) 0%, rgba(0,0,0,0.9500175070028011) 35%), url('../images/LAWYERS.jpg');
+    color: white;
+    padding: 0 30px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+
+}
+.footLeft{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.footLeftLogo{
+    display: flex;
+    justify-content: space-around;
+}
+.footLeftLogo >img{
+    width:70px;
+    height: 50px;
+}
+.footLeftLogo > p{
+   font-family: 'Anton', sans-serif;
+   font-size: 16px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.footLineLogo{
+    width: 2px;
+    height: 40px;
+    background:rgb(147, 148, 148);
+}
+.footLogoDesc{
+    color:rgb(194, 197, 197);
+    font-size: 20px;
+}
+.footLogoDesc >p{
+    width: 70%;
+}
+.footMiddle,.footRight{
+    width: 50%;
+}
+.footMiddle >p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.footMiddle nav ul{
+   list-style-type: none;
+}
+.footMiddle nav ul li{
+    margin-bottom: 20px;
+}
+.footMiddle nav ul li a{
+    text-decoration: none;
+    color: rgb(194, 197, 197);
+}
+.footMiddle nav ul li a:hover{
+    color:rgb(18, 168, 228);
+}
+.footLineT{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(224, 223, 223);
+}
+.footwrapperTwo{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fTwoL{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fTwoL p{
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+
+}
+.fTwoLTitle{
+    text-transform: uppercase;
+    color:rgb(138, 137, 137);
+    font-weight: none;
+    margin-right: 5px;
+}
+.fTwoR a{
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 25px;
+    color: blue;
+    font-weight: bold;
+}
+.fTwoR a:hover{
+    background-color: teal;
+    color: white;
+}
+.footerLabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    color: rgb(231, 226, 226);
+}
+@media only screen and (max-width: 1200px){
+    .aMiddle{
+    text-align: center;
+}
+.a-mainSecR img{
+    height: 580px;
+}
+.aleftDesc p{
+    width: 100%;
+}
+.booking-left a p{
+    margin-right: 50px;
+}
+}
+@media only screen and (max-width: 1024px){
+       .aHeader{
+    height: inherit;
+}
+.aHeader-wrapper{
+    padding: 10px 0 20px 10px;
+}
+.aLeftLogo > a img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.aLeftLogo > a p{
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}
+.aleftDesc p{
+    font-size: 9px;
+    width: 100%;
+}
+.aMiddle{
+    font-size: 11px;
+    text-align: center;
+}
+.aMiddleAddress{
+    margin-right: 10px;
+}
+.contactButton{
+    margin-left: 5px;
+    height: 50px;
+}
+.contactButton a{
+    font-size: 14px;
+    padding: 5px;
+}
+.aboutUs-Title h1{
+    font-size: 60px;
+}
+.mainSec{
+    height: inherit;
+}
+.mainSec-wrapper{
+    padding: 20px 20px;
+}
+.a-mainSecL{
+    padding: 20px;
+}
+.a-mainSecTitle{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.a-mainSecSub{
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 0;
+}
+.a-mainSecDesc{
+    font-size: 16px;
+    width: 100%;
+    line-height: 20px;
+}
+.a-mainSecL button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.a-mainSecR img{
+    height: 350px;
+}
+.serviceWrapper{
+    padding: 0;
+    margin-bottom: 2px;
+}
+.s-title h1{
+    font-size: 16px;
+    padding: 10px;
+}
+.serviceWrapper a div{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.serviceWrapper a div h2{
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+}
+.serviceWrapper a div p{
+    width: 90%;
+}
+.booking{
+    padding: 20px 30px;
+}
+.booking-left{
+    justify-content: center;
+    text-align: center;
+}
+.booking-left a p{
+    margin-right: 30px;
+    font-size: 36px;
+    line-height: 30px;
+}
+.booking-left a .book-title{
+    font-size: 18px;
+}
+.booking-left:last-child{
+    border-bottom: none;
+}
+
+    .footLeft{
+    width: 100%;
+}
+.footLeftLogo >img{
+    height: 40px;
+}
+.footLeftLogo > p{
+   font-size: 18px;
+   margin-left: 5px;
+}
+.footLogoDesc{
+    font-size: 16px;
+}
+.fTwoL p{
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.fTwoR a{
+    padding: 10px;
+    font-size: 14px;
+}
+}
+@media only screen and (max-width:768px){
+    .aHeader{
+    height: inherit;
+}
+.aHeader-wrapper{
+    padding: 10px 0 20px 5px;
+}
+.aMiddle{
+    font-size: 10px;
+    text-align: center;
+}
+.aMiddleAddress{
+    margin-right: 5px;
+}
+.contactButton a{
+    font-size: 10px;
+    padding: 5px;
+}
+.aboutUs-Title h1{
+    font-size: 50px;
+}
+.a-mainSecTitle{
+    font-size: 20px;
+}
+.a-mainSecSub{
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 0;
+}
+.serviceWrapper a div p{
+    width: 90%;
+}
+.booking{
+    padding: 20px;
+}
+.booking-left img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.booking-left a p{
+    margin-right: 10px;
+    font-size: 26px;
+    line-height: 30px;
+}
+/* Footer Section */
+.footer{
+    height: inherit;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.footLeft{
+    width: 100%;
+}
+.footLeftLogo >img{
+    height: 40px;
+}
+.footLeftLogo > p{
+   font-size: 18px;
+   margin-left: 5px;
+}
+.footLogoDesc{
+    font-size: 16px;
+}
+.fTwoL p{
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.fTwoR a{
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+}
+@media only screen and (max-width: 538px){
+.aMiddle,.aLeftLine,.aleftDesc{
+    display:none;
+}
+.aHeader{
+    height: inherit;
+}
+    .aHeader-wrapper{
+    justify-content: space-around;
+    padding: 10px 0 20px 5px;
+}
+.aleft{
+    width: 50%;
+    margin-left: -40px;
+}
+.aLeftLogo > a img{
+    margin-right: 0;
+    width: 30px;
+    height: 40px;
+}
+.aLeftLogo > a p{
+    font-size: 13px;
+}
+.contactButton{
+    width: 50%;
+    margin-left: 30px;
+    height: 50px;
+}
+.contactButton a{
+    font-size: 14px;
+}
+.header-main{
+    margin: 20px 0;
+    position: relative;
+}
+.mobile-icon{
+    display: block;
+    margin-left: 10px;
+    width: 70%;
+}
+.mobile-icon i{
+    font-size: 25px;
+   padding-bottom: 10px;   
+}
+.icon-re{
+    margin-left: 0;
+    display: none;
+}
+.header-icon{
+    width: 30%;
+    margin-left: 80px;
+}
+.header-icon a{
+    margin-right: 5px;
+}
+.header-icon a:last-child{
+    margin-right: 0;
+}
+.header-main nav{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 30;
+    background-color: rgb(245, 245, 245);
+    padding: 20px 0;
+}
+.header-main nav ul li{
+    display: block;
+    margin-top: 10px;
+}
+.header-main nav ul li a:hover{
+    border-bottom: none;
+    color: blue;
+}
+/*End of Header Layout */
+.aboutUs-Title{
+   width: 100%;
+   height: 40vh;
+}
+.aboutUs-Title h1{
+    font-size: 40px; 
+}
+.mainSec-title{
+    padding: 20px;
+    margin-left: 0;
+}
+.mainSec{
+    height: inherit;
+}
+.mainSec-wrapper{
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.a-mainSecL,.a-mainSecR{
+    width: 100%;
+}
+.a-mainSecL{
+    padding: 20px;
+}
+.a-mainSecTitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.a-mainSecSub{
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 0;
+}
+.a-mainSecDesc{
+    font-size: 14px;
+    width: 100%;
+    line-height: 20px;
+}
+.a-mainSecL button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.a-mainSecR img{
+    height: 200px;
+}
+.serviceWrapper{
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.s-title h1{
+    font-size: 16px;
+    padding: 15px;
+}
+.serviceWrapper a div{
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.serviceWrapper a div h2{
+    text-align: center;
+    font-size: 16px;
+}
+.booking{
+    flex-direction: column;
+    height: inherit;
+    padding: 0;
+}
+.booking-left{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-right: none;
+    border-bottom: 1px solid rgb(201, 198, 198);
+    margin-top: 10px;
+}
+.booking-left a p{
+    margin-right: 0;
+}
+.booking-left:last-child{
+    border-bottom: none;
+}
+.footer{
+    height: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-wrapper{
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0;
+}
+.footLeft{
+    width: 100%;
+}
+.footLeftLogo > img{
+    width: 40px;
+    height: 40px;
+}
+.footLeftLogo > p{
+    font-size: 14px;
+    width: 100%;
+}
+.footLogoDesc >p{
+    width: 100%;
+    font-size: 12px;
+}
+.footMiddle,.footRight{
+    width: 100%;
+}
+.footMiddle > p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.footMiddle nav ul li{
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+.footwrapperTwo{
+    padding: 10px;
+    flex-direction: column;
+    justify-content:left;
+}
+.fTwoL{
+    flex-direction: column;
+    justify-content: left;
+}
+.fTwoL p{
+    margin-right: 0;
+    font-size: 12px;
+}
+.fTwoR{
+    margin: 20px 0;
+}
+.footerLabel{
+    text-align: center;
+}
+}
+@media only screen and (max-width: 325px){
+
+    .aleft{
+    margin-left: 0;
+}
+.aLeftLogo > a img{
+    margin-right: 5px;
+    width: 30px;
+    height: 40px;
+}
+.contactButton{
+    margin-left: 5px;
+}
+.mobile-icon{
+    margin-left: 10px;
+    width: 60%;
+}
+.header-icon{
+    width: 40%;
+    margin-left: 50px;
+}
+}

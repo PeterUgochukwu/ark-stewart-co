@@ -1,0 +1,1279 @@
+body{
+    font-family: 'Lato', sans-serif ;
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth;
+
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;   
+}
+.mobile-view, .mobile-booking{
+    display: none;
+}
+.mini-nav{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+.miniNav-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.miniNav-left > p{
+    font-size: 16px;
+}
+.m-Address{
+    margin-right: 20px;
+}
+.miniNav-left-line{
+    height: 20px;
+    width: 2px;
+    background: white;
+    margin-right: 10px;
+}
+
+.miniNav-right{
+margin-right: 50px;
+}
+a .icon-size{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.line-break{
+    position: absolute;
+    z-index: 1;
+  margin-top: 50px;
+  width: 100%;
+  height: 1px;
+  background: white;
+}
+.main-nav{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nLeft{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nLeft-logo{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nLeft-logo > a > img{
+    text-decoration: none;
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+}
+.nLeftTitle a {
+    text-decoration-line: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+}
+.nLeft-line{
+    width: 1px;
+    height: 30px;
+    background: white;
+}
+.nLeft-phone{
+   font-family: 'Libre Baskerville', serif;
+   font-size: 20px;
+}
+.nLeft-book{
+    border: 2px solid white;
+    padding: 10px;
+    margin-left: 10px;
+}
+.nLeft-book > p a{
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+    color: white;
+}
+.nLeft-book:hover{
+    background: blue;
+    border: none;
+}
+
+.main-nRight{
+    width: 55%;
+}
+.main-nRight nav{
+    margin-left: 38%;
+}
+.main-nRight nav ul{
+    list-style-type: none;
+}
+.main-nRight nav ul li{
+    display: inline-block;
+}
+.main-nRight nav ul li a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mySlides {display:none; position: relative;}
+.slideContent{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    margin-top: 12%;
+}
+.slideCont{
+    padding: 0 70px;
+}
+.slideCont > h1{
+    color: white;
+    font-family: 'Joan', serif;
+    font-size: 80px;
+    line-height: 90px;
+    margin-bottom: 30px;
+    animation: 2s example ease-out;
+}
+@keyframes example {
+  0%   {margin-left: -100%;}
+  25%  { margin-left: -75%;}
+  50%  {margin-left:-50%;}
+  75%  {margin-left:-25%px;}
+  100% {margin-left:0px;}
+}
+.slideCont > p{
+    color: white;
+    font-size: 18px;
+    width: 40%;
+    line-height: 25px;
+    margin-bottom: 30px;
+    
+}
+.getInTouch {
+    padding: 20px;
+    background-color: white;
+    border: none;
+}
+.getInTouch a{
+    text-decoration: none;
+    color: rgb(22, 22, 194);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.arrow-move{
+    margin-left: 20px;
+}
+.getInTouch:hover,.getInTouch a:hover{
+    background-color: teal;
+    color: white;
+}
+.lineUp {
+  animation: 2s anim-lineUp ease-out;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.supportLink,.info-mobile,.mobile-slide{
+    display: none;
+}
+.secAbout{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.Aboutleft,.Aboutmiddle,.Aboutright{
+    flex: 1;
+}
+.Aboutleft{
+    background-image: url("../images/FreeVector-Blue-Background-Graphics.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px 50px 30px;
+}
+.Aboutleft:hover{
+   background-image: url("../images/1FreeVector-Blue-Background-Graphics.jpg");
+}
+.Aboutleft > h1{
+    color: white;
+    font-size: 45px;
+    width: 80%;
+    line-height: 50px;
+}
+.Aboutleft > div{
+    width: 30px;
+    height: 1px;
+    background: white;
+    margin: 20px 0px;
+}
+.Aboutleft > a > p{
+    margin-top: 40px;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.Aboutleft >a > p:hover{
+     text-decoration-line: none;
+     color:rgb(93, 176, 253);
+}
+.Aboutmiddle{
+    background-image: url("../images/istockphoto-1180555500-612x6122.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px 50px 30px;
+}
+.Aboutmiddle:hover{
+    background-image: url("../images/2istockphoto-1180555500-612x6122.jpg");
+}
+.Aboutmiddle > h1{
+    color: white;
+    font-size: 45px;
+    width: 90%;
+    line-height: 50px;
+}
+.Aboutmiddle > div{
+    width: 30px;
+    height: 1px;
+    background: white;
+    margin: 20px 0px;
+}
+.Aboutmiddle > a > p{
+    margin-top: 40px;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+ 
+}
+.Aboutmiddle >a > p:hover{
+     text-decoration-line: none;
+     color:rgb(93, 176, 253);
+}
+.Aboutright{
+    background-image: url("../images/Wykwtx.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px 50px 30px;
+}
+.Aboutright:hover{
+    background-image: url("../images/2Wykwtx.jpg");
+}
+.Aboutright > h1{
+    color: white;
+    font-size: 45px;
+    width: 90%;
+    line-height: 50px;
+}
+.Aboutright > div{
+    width: 30px;
+    height: 1px;
+    background: white;
+    margin: 20px 0px;
+}
+.Aboutright > a > p{
+    margin-top: 40px;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ 
+}
+.Aboutright >a > p:hover{
+     text-decoration-line: none;
+     color:rgb(93, 176, 253);
+}
+.serviceTab{
+    padding: 10px;
+    background: rgb(224, 223, 223);
+    overflow: hidden;
+}
+.serviceWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    margin-bottom: 5px;
+}
+.s-title h1{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serviceWrapper a{
+    text-decoration: none;
+}
+.serviceWrapper a div{
+    background-color: white;
+    padding: 20px 10px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serviceWrapper a div:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.serviceWrapper a div img{
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+}
+.serviceWrapper a div h2{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.serviceWrapper a div p{
+    text-decoration: none;
+    width: 70%;
+    text-align: center;
+    color: black;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.serviceButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.serviceButton button{
+    padding: 10px 20px;
+    border: 2px solid blue;
+
+}
+.serviceButton button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black
+}
+.serviceButton button:hover,.serviceButton button a:hover{
+    background-color: blue;
+    color: white;
+}
+.info{
+    height: 30vh;
+    margin-bottom: 70px;
+    
+}
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+}
+.info-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.info-subTitle{
+    font-size: 22px;
+    font-weight: 500;
+    width: 60%;
+    line-height: 30px;
+}
+.info-desc{
+    font-size: 16px;
+    width: 50%;
+    line-height: 20px;
+}
+.mini-contact{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,78,1) 35%);
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.leftContact{
+width: 70%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+padding: 0px 20px;
+}
+.m-title h1{
+    font-family: 'Joan', serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.m-title p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.form-input{
+    width: 75%;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type="text"]{
+    padding: 20px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid rgb(200, 200, 255);
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+input[type="email"]{
+    padding: 20px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid rgb(200, 200, 255);
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+textarea{
+    padding: 20px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid rgb(200, 200, 255);
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+.submit{
+    padding: 15px 25px;
+    margin-top: 20px;
+    background-color: inherit;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-color: rgb(65, 193, 252);
+}
+.submit:hover{
+    background-color: rgb(65, 193, 252);
+}
+.footer{
+    height: 100vh;
+    background-image: linear-gradient(90deg,rgba(64,63,65,0.7651435574229692) 0%, rgba(0,0,0,0.9500175070028011) 35%), url('../images/LAWYERS.jpg');
+    color: white;
+    padding: 0 30px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+
+}
+.footLeft{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.footLeftLogo{
+    display: flex;
+    justify-content: space-around;
+}
+.footLeftLogo >img{
+    width:70px;
+    height: 50px;
+}
+.footLeftLogo > p{
+   font-family: 'Anton', sans-serif;
+   font-size: 16px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.footLineLogo{
+    width: 2px;
+    height: 40px;
+    background:rgb(147, 148, 148);
+}
+.footLogoDesc{
+    color:rgb(194, 197, 197);
+    font-size: 20px;
+}
+.footLogoDesc >p{
+    width: 70%;
+}
+.footMiddle,.footRight{
+    width: 50%;
+}
+.footMiddle >p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.footMiddle nav ul{
+   list-style-type: none;
+}
+.footMiddle nav ul li{
+    margin-bottom: 20px;
+}
+.footMiddle nav ul li a{
+    text-decoration: none;
+    color: rgb(194, 197, 197);
+}
+.footMiddle nav ul li a:hover{
+    color:rgb(18, 168, 228);
+}
+.footLineT{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(224, 223, 223);
+}
+.footwrapperTwo{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fTwoL{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fTwoL p{
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+
+}
+.fTwoLTitle{
+    text-transform: uppercase;
+    color:rgb(138, 137, 137);
+    font-weight: none;
+    margin-right: 5px;
+}
+.fTwoR a{
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 25px;
+    color: blue;
+    font-weight: bold;
+}
+.fTwoR a:hover{
+    background-color: teal;
+    color: white;
+}
+.footerLabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    color: rgb(231, 226, 226);
+}
+@media only screen and (max-width: 1200px){
+    .header{
+    margin-bottom: 0; 
+}
+.main-nav{
+    justify-content: flex-start;
+}
+.main-nLeft{
+    width: 65%;
+}
+.main-nRight{
+    width: 35%;
+}
+.main-nRight nav{
+    margin-left: 20px;
+}
+.miniNav-left > p{
+    font-size: 18px;
+}
+.nLeftTitle a {
+    font-size: 24px;
+}
+.nLeft-phone{
+   font-size: 30px;
+}
+.nLeft-book{
+    padding: 10px;
+    margin-left: 5px;
+}
+.nLeft-book > p a{
+    font-size: 18px;
+}
+.main-nRight nav ul li a{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.slideCont > h1{
+    font-size: 70px;
+    margin-top: 40px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.slideCont > p{
+    font-size: 18px;
+    width: 70%;  
+}
+.getInTouch a{
+    font-size: 18px;
+}
+.secAbout{
+    margin-bottom: 0;
+    overflow: hidden;
+    margin-top: 0;
+}
+.Aboutleft > h1{
+    font-size: 40px;
+    width: 100%;
+    line-height: 35px;
+}
+.Aboutmiddle > h1{
+    font-size: 40px;
+    width: 100%;
+    line-height: 35px;
+}
+.Aboutright > h1{
+    font-size: 40px;
+    width: 100%;
+    line-height: 35px;
+}
+.serviceWrapper{
+    padding: 0px 20px;
+    margin-bottom: 2px;
+}
+.s-title h1{
+    font-size: 18px;
+    padding: 10px;
+}
+.serviceWrapper a{
+    width: 33.33%;
+}
+.serviceWrapper a div{
+    padding: 15px 10px;
+    text-align: center;
+}
+.serviceWrapper a div h2{
+    font-size: 18px;
+    line-height: 1 ;
+}
+.info{
+    height: inherit;
+    margin-bottom: 70px;
+    
+}
+.leftContact{
+width: 80%;
+}
+.footer{
+    height: inherit;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.footLeft{
+    width: 100%;
+}
+.footLeftLogo >img{
+    height: 40px;
+}
+.footLeftLogo > p{
+   font-size: 18px;
+   margin-left: 5px;
+}
+.footLogoDesc{
+    font-size: 16px;
+}
+.fTwoL p{
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.fTwoR a{
+    padding: 15px;
+    font-size: 16px;
+}
+}
+@media only screen and (max-width: 1024px) {
+.main-nLeft{
+    width: 65%;
+}
+.main-nRight{
+    width: 35%;
+}
+.main-nRight nav{
+    margin-left: 0;
+}
+.miniNav-left > p{
+    font-size: 16px;
+}
+.nLeftTitle a {
+    font-size: 20px;
+}
+.nLeft-phone{
+   font-size: 18px;
+}
+.nLeft-book{
+    padding: 5px;
+    margin-left: 5px;
+}
+.nLeft-book > p a{
+    font-size: 16px;
+}
+.main-nRight nav ul li a{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.slideCont > h1{
+    font-size: 60px;
+    margin-top: 40px;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+.slideCont > p{
+    font-size: 18px;
+    width: 70%;  
+}
+.getInTouch a{
+    font-size: 18px;
+}
+.secAbout{
+    margin-bottom: 0;
+    overflow: hidden;
+    margin-top: 0;
+}
+.Aboutleft > h1{
+    font-size: 30px;
+    width: 100%;
+    line-height: 30px;
+}
+.Aboutmiddle > h1{
+    font-size: 30px;
+    width: 100%;
+    line-height: 30px;
+}
+.Aboutright > h1{
+    font-size: 30px;
+    width: 100%;
+    line-height: 30px;
+}
+.serviceWrapper{
+    padding: 0px 20px;
+    margin-bottom: 2px;
+}
+.s-title h1{
+    font-size: 16px;
+    padding: 10px;
+}
+.serviceWrapper a{
+    width: 33.33%;
+}
+.serviceWrapper a div{
+    padding: 15px 10px;
+    text-align: center;
+}
+.serviceWrapper a div h2{
+    font-size: 16px;
+    line-height: 1 ;
+}
+.info{
+    height: inherit;
+    margin-bottom: 70px;
+    
+}
+.leftContact{
+width: 80%;
+}
+.footer{
+    height: inherit;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.footLeft{
+    width: 100%;
+}
+.footLeftLogo >img{
+    height: 40px;
+}
+.footLeftLogo > p{
+   font-size: 18px;
+   margin-left: 5px;
+}
+.footLogoDesc{
+    font-size: 16px;
+}
+.fTwoL p{
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.fTwoR a{
+    padding: 10px;
+    font-size: 14px;
+}
+}
+@media only screen and (max-width:768px){
+.header{
+    margin-bottom: 0; 
+}
+.main-nav{
+    justify-content: flex-start;
+}
+.main-nLeft{
+    width: 60%;
+}
+.main-nRight{
+    width: 40%;
+}
+.main-nRight nav{
+    margin-left: 0;
+}
+.miniNav-left > p{
+    font-size: 14px;
+}
+.nLeftTitle a {
+    font-size: 18px;
+}
+.nLeft-phone{
+   font-size: 16px;
+}
+.nLeft-book{
+    padding: 5px;
+    margin-left: 5px;
+}
+.nLeft-book > p a{
+    font-size: 12px;
+}
+.main-nRight nav ul li a{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.slideCont > h1{
+    font-size: 50px;
+    margin-top: 30px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+.slideCont > p{
+    font-size: 16px;
+    width: 70%;  
+}
+.getInTouch a{
+    font-size: 16px;
+}
+.secAbout{
+    margin-bottom: 0;
+    overflow: hidden;
+    margin-top: -77px;
+}
+.Aboutleft > h1{
+    font-size: 30px;
+    width: 100%;
+    line-height: 30px;
+}
+.Aboutmiddle > h1{
+    font-size: 30px;
+    width: 100%;
+    line-height: 30px;
+}
+.Aboutright > h1{
+    font-size: 30px;
+    width: 100%;
+    line-height: 30px;
+}
+.serviceWrapper{
+    padding: 0px 20px;
+    margin-bottom: 2px;
+}
+.s-title h1{
+    font-size: 16px;
+    padding: 10px;
+}
+.serviceWrapper a{
+    width: 33.33%;
+}
+.serviceWrapper a div{
+    padding: 15px 10px;
+    text-align: center;
+}
+.serviceWrapper a div h2{
+    font-size: 16px;
+    line-height: 1 ;
+}
+.info{
+    height: inherit;
+    margin-bottom: 70px;
+    
+}
+.leftContact{
+width: 80%;
+}
+.footer{
+    height: inherit;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.footLeft{
+    width: 100%;
+}
+.footLeftLogo >img{
+    height: 40px;
+}
+.footLeftLogo > p{
+   font-size: 14px;
+   margin-left: 5px;
+}
+.footLogoDesc{
+    font-size: 14px;
+}
+.fTwoL p{
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.fTwoR a{
+    padding: 10px;
+    font-size: 10px;
+}
+
+
+}
+@media only screen and (max-width:538px){
+    .header{
+    height: inherit;
+    margin-bottom: 0; 
+    overflow: hidden;
+}
+    .slider{
+        height: 100vh;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+    .mySlides > img{
+        height: 100vh;
+    }
+    .slideCont{
+        padding: 0 30px;
+    }
+    .slideCont > h1{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.slideCont > p{
+    width: 100%;
+    text-align: center;
+}
+.getInTouch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.getInTouch a{
+    font-size: 14px;
+}
+    .secAbout, .mini-contact{
+        display: none;
+    }
+    .supportLink{
+    display: block;
+    background: linear-gradient(90deg, rgba(6,4,24,1) 0%, rgba(0,13,68,1) 55%);
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.supportLink h1{
+    font-family: 'Joan', sans-serif;
+    color: white;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.supportLink p{
+    font-size: 20px;
+    color: rgb(211, 211, 211);
+    width: 90%;
+    margin-bottom: 20px;
+}
+.supportLink a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(18, 168, 228);
+    padding: 15px 25px;
+    margin-top: 20px;
+}
+.supportLink a:hover{
+    background: rgb(18, 168, 228);
+}
+.info-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.info-subTitle{
+    font-size: 20px;
+    width: 90%;
+    line-height: 30px;
+    margin: 10px 15px;
+}
+.info-desc{
+    font-size: 14px;
+    width: 90%;
+    line-height: 20px;
+    margin: 10px 15px;
+}
+.mobile-slide{
+    display: block;
+    background-color: rgb(233, 233, 233);
+    padding: 30px 10px;
+     position: relative;
+}
+.mobile-slide h1{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.mobileSlides{
+    background-color: white;
+    display: none;
+}
+.mobileSlides img{
+    width: 100%;
+    height: 200px;
+}
+.mobileSlides h1{
+    font-family: "Joan", sans-serif;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 300;
+}
+.mobileSlides .serviceButton>button {
+    margin-bottom: 30px;
+}
+.mobileSlides p{
+    padding-left: 20px;
+    font-size: 14px;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.serviceTab,.info{
+    display: none;
+}
+.mobile-booking{
+    display: block;
+    background: linear-gradient(90deg, rgba(6,2,34,1) 0%, rgba(19,8,93,1) 55%);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.booking-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(201, 198, 198);
+    margin-bottom: 30px;
+    width: 100%;
+}
+.booking-left:last-child{
+    border-bottom: none;
+}
+.booking-left img{
+    width: 50px;
+    height: 50px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.booking-left a{
+    text-decoration: none;
+}
+.booking-left a p{
+    font-family: 'Joan', sans-serif;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
+    margin-right: 0;
+    text-align: center;
+}
+.booking-left a .book-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ .booking-left a p:hover{
+    color: rgb(40, 136, 245);
+}
+.footer{
+    height: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-wrapper{
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0;
+}
+.footLeft{
+    width: 100%;
+}
+.footLeftLogo > p{
+    font-size: 14px;
+    width: 100%;
+}
+.footLogoDesc >p{
+    width: 100%;
+    font-size: 12px;
+}
+.footMiddle,.footRight{
+    width: 100%;
+}
+.footMiddle > p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.footMiddle nav ul li{
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+.footwrapperTwo{
+    padding: 10px;
+    flex-direction: column;
+    justify-content:left;
+}
+.fTwoL{
+    flex-direction: column;
+    justify-content: left;
+}
+.fTwoL p{
+    margin-right: 0;
+    font-size: 12px;
+}
+.fTwoR{
+    margin: 20px 0;
+}
+.footerLabel{
+    text-align: center;
+}
+}
+@media only screen and (max-width:325px){
+ .slideCont > h1{
+     margin-top: 50px;
+    margin-bottom: 30px;
+}
+}

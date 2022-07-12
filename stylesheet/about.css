@@ -1,0 +1,922 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif ;
+}
+.aHeader{
+    height: 28vh;
+    width:100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
+}
+.aHeader-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 20px 20px;
+
+}
+.aleft{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aLeftLogo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aLeftLogo > a img{
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.aLeftLogo > a {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.aLeftLogo > a p{
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.aLeftLine{
+    width: 2px;
+    height: 40px;
+    background: rgba(161, 159, 159, 0.1);
+}
+.aleftDesc{
+    margin-left: 10px;
+}
+.aleftDesc p{
+    font-weight: bold;
+    width: 70%;
+    line-height: 13px;
+    font-size: 14px;
+}
+.aMiddle{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.aMiddleAddress{
+    margin-right: 10px;
+}
+.aMiddleAddress p{
+    font-weight: bold;
+}
+.mainAdd{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.aMiddleLine{
+    width: 1px;
+    height: 40px;
+    background: black;
+}
+ .aHeader button a {
+    width: 10%;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.contactButton{
+    width: 15%;
+    height: 90px;
+    background: rgb(30, 130, 245);
+    margin-left: 10px;
+    margin-right: 0;
+    outline: none;
+    border: none;
+}
+.contactButton a{
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.contactButton:hover{
+    background: rgb(2, 2, 31);
+}
+.aHeaderLine{
+    width: 100%;
+    height: 2px;
+     background: rgba(161, 159, 159, 0.1);
+     margin-top: -20px;
+}
+.mobile-icon{
+    display: none;
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.header-main nav ul{
+    list-style-type: none;
+
+}
+.header-main nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.header-main nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 0px 30px 0px;
+    font-weight: bold;
+}
+.header-main nav ul li a:hover{
+    border-bottom: 2px solid blue;
+}
+.header-icon{
+    padding-right: 40px;
+}
+.header-icon a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.aboutUs-Title{
+    height: 50vh;
+     background-image: linear-gradient(90deg,rgba(64,63,65,0.7651435574229692) 0%, rgba(0,0,0,0.9500175070028011) 35%), url('../images/2102916.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutUs-Title h1{
+    font-family: 'Joan', sans-serif;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.aboutUs-Title p{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+.mainSec{
+    height: 100vh;
+    background:rgb(2, 2, 20);
+    color: white;
+    overflow: hidden;
+}
+.mainSec-title{
+    padding: 20px 40px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-left: 50px;
+}
+.mainSec-title a{
+    text-decoration: none;
+    color:rgb(212, 211, 211);
+    font-size: 16px;
+    margin-right: 10px;
+}
+.mainSec-title div{
+    width: 1px;
+    height: 30px;
+    background: white;
+    margin-right: 10px;
+
+}
+.mainSec-title p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.mainSec-wrapper{
+    background:rgb(8, 46, 97);
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a-mainSecL,.a-mainSecR{
+    flex:1;
+}
+.a-mainSecTitle{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.a-mainSecSub{
+    font-family: 'Joan',sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+    padding-right: 20px;
+}
+.a-mainSecDesc{
+    font-size: 16px;
+    width: 90%;
+    line-height: 25px;
+}
+.a-mainSecL button{
+    background: inherit;
+    padding: 15px 30px;
+    outline: none;
+    border: 2px solid rgb(50, 142, 248);
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.a-mainSecL button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.a-mainSecL button:hover{
+    background: rgb(50, 142, 248);
+}
+.sec-values{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sec-valueTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec-valueTitle h1{
+    font-size: 18px;
+}
+.sec-valueTitle p{
+    width: 60%;
+    font-size: 16px;
+    line-height: 25px;
+}
+.sec-values-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    border: 1px solid grey;
+    margin-top: 30px;
+    
+}
+.sec-value-wrapperEdit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid grey;
+    margin-right: 20px;
+}
+.sec-value-wrapperEdit img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.sec-value-wrapperEdit h2{
+    font-size: 18px;
+}
+.sec-value-wrapperEdit p{
+    padding: 0px 20px 20px 20px;
+}
+.sec-value-wrapperEdit:last-child{
+    border-right: none;
+}
+.sec-values button{
+    background: inherit;
+    padding: 15px 30px;
+    outline: none;
+    border: 2px solid blue;
+    margin-top: 30px;
+}
+.sec-values button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+.sec-values button:hover, .sec-values button a:hover{
+    background: blue;
+    color: white;
+}
+.sec-profile{
+    height: 100vh;
+    background-image: linear-gradient(8deg, rgba(255,255,255,0.7651435574229692) 0%, rgba(255,255,255,0.8743872549019608) 35%), url("../images/istockphoto-681164016-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec-pro-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sec-pro-head h2{
+    font-size: 18px;
+}
+.sec-profileWrapper{
+    background: white;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.sec-profileWrapper button{
+    outline: none;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 50px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+.myDIV {
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 50px;
+  display: none;
+}
+.icon-plus{
+   position: absolute;
+   top: 0;
+   right: 100;
+   left: 50;
+   text-align: right;
+   color: rgb(76, 122, 247);
+  
+   
+}
+.icon-minus{
+     position: absolute;
+     top: 0;
+   right: 100;
+   left: 50;
+   text-align: right;
+   color: rgb(76, 122, 247);
+    display: none;
+}
+
+.footer{
+    height: 100vh;
+    background-image: linear-gradient(90deg,rgba(64,63,65,0.7651435574229692) 0%, rgba(0,0,0,0.9500175070028011) 35%), url('../images/LAWYERS.jpg');
+    color: white;
+    padding: 0 30px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+
+}
+.footLeft{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.footLeftLogo{
+    display: flex;
+    justify-content: space-around;
+}
+.footLeftLogo >img{
+    width:70px;
+    height: 50px;
+}
+.footLeftLogo > p{
+   font-family: 'Anton', sans-serif;
+   font-size: 16px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.footLineLogo{
+    width: 2px;
+    height: 40px;
+    background:rgb(147, 148, 148);
+}
+.footLogoDesc{
+    color:rgb(194, 197, 197);
+    font-size: 20px;
+}
+.footLogoDesc >p{
+    width: 70%;
+}
+.footMiddle,.footRight{
+    width: 50%;
+}
+.footMiddle >p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.footMiddle nav ul{
+   list-style-type: none;
+}
+.footMiddle nav ul li{
+    margin-bottom: 20px;
+}
+.footMiddle nav ul li a{
+    text-decoration: none;
+    color: rgb(194, 197, 197);
+}
+.footMiddle nav ul li a:hover{
+    color:rgb(18, 168, 228);
+}
+.footLineT{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(224, 223, 223);
+}
+.footwrapperTwo{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fTwoL{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fTwoL p{
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+
+}
+.fTwoLTitle{
+    text-transform: uppercase;
+    color:rgb(138, 137, 137);
+    font-weight: none;
+    margin-right: 5px;
+}
+.fTwoR a{
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 25px;
+    color: blue;
+    font-weight: bold;
+}
+.fTwoR a:hover{
+    background-color: teal;
+    color: white;
+}
+.footerLabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    color: rgb(231, 226, 226);
+}
+@media only screen and (max-width: 1200px){
+    .aMiddle{
+    text-align: center;
+}
+.aleftDesc p{
+    width: 100%;
+}
+}
+@media only screen and (max-width: 1024px){
+       .aHeader{
+    height: inherit;
+}
+.aHeader-wrapper{
+    padding: 10px 0 20px 10px;
+}
+.aLeftLogo > a img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.aLeftLogo > a p{
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}
+.aleftDesc p{
+    font-size: 9px;
+    width: 100%;
+}
+.aMiddle{
+    font-size: 11px;
+    text-align: center;
+}
+.aMiddleAddress{
+    margin-right: 10px;
+}
+.contactButton{
+    margin-left: 5px;
+    height: 50px;
+}
+.contactButton a{
+    font-size: 14px;
+    padding: 5px;
+}
+.aboutUs-Title h1{
+    font-size: 60px;
+}
+.mainSec-wrapper{
+    padding: 50px 20px;
+}
+.a-mainSecTitle{
+    font-size: 25px;
+}
+.a-mainSecSub{
+    font-size: 25px;
+    line-height: 32px;
+}
+.a-mainSecDesc{
+    font-size: 16px;
+}
+.a-mainSecL button{
+    margin-top: 20px;
+}
+.a-mainSecL button a{
+    font-size: 16px;
+}
+.sec-values{
+    height: inherit;
+}
+.sec-valueTitle h1{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.sec-valueTitle p{
+    width: 80%;
+}
+.sec-value-wrapperEdit h2{
+    font-size: 16px;
+    line-height: normal;
+}
+.sec-values button{
+    margin-bottom: 15px;
+}
+    .footLeft{
+    width: 100%;
+}
+.footLeftLogo >img{
+    height: 40px;
+}
+.footLeftLogo > p{
+   font-size: 18px;
+   margin-left: 5px;
+}
+.footLogoDesc{
+    font-size: 16px;
+}
+.fTwoL p{
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.fTwoR a{
+    padding: 10px;
+    font-size: 14px;
+}
+}
+@media only screen and (max-width:768px){
+    .aHeader{
+    height: inherit;
+}
+.aHeader-wrapper{
+    padding: 10px 0 20px 5px;
+}
+.aMiddle{
+    font-size: 10px;
+    text-align: center;
+}
+.aMiddleAddress{
+    margin-right: 5px;
+}
+.contactButton a{
+    font-size: 10px;
+    padding: 5px;
+}
+.aboutUs-Title h1{
+    font-size: 50px;
+}
+.a-mainSecTitle{
+    font-size: 20px;
+}
+.a-mainSecSub{
+    font-size: 20px;
+    line-height: 30px;
+}
+.a-mainSecDesc{
+    font-size: 14px;
+}
+.a-mainSecL button a{
+    font-size: 14px;
+}
+.sec-values{
+    height: inherit;
+}
+.sec-valueTitle h1{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.sec-valueTitle p{
+    width: 80%;
+}
+.sec-value-wrapperEdit h2{
+    font-size: 16px;
+    line-height: normal;
+}
+.sec-values button{
+    margin-bottom: 15px;
+}
+/* Footer Section */
+.footer{
+    height: inherit;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.footLeft{
+    width: 100%;
+}
+.footLeftLogo >img{
+    height: 40px;
+}
+.footLeftLogo > p{
+   font-size: 18px;
+   margin-left: 5px;
+}
+.footLogoDesc{
+    font-size: 16px;
+}
+.fTwoL p{
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.fTwoR a{
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+}
+@media only screen and (max-width: 538px){
+.aMiddle,.aLeftLine,.aleftDesc{
+    display:none;
+}
+.aHeader{
+    height: inherit;
+}
+    .aHeader-wrapper{
+    justify-content: space-around;
+    padding: 10px 0 20px 5px;
+}
+.aleft{
+    width: 50%;
+    margin-left: -40px;
+}
+.aLeftLogo > a img{
+    margin-right: 0;
+    width: 30px;
+    height: 40px;
+}
+.aLeftLogo > a p{
+    font-size: 13px;
+}
+.contactButton{
+    width: 50%;
+    margin-left: 30px;
+    height: 50px;
+}
+.contactButton a{
+    font-size: 14px;
+}
+.header-main{
+    margin: 20px 0;
+    position: relative;
+}
+.mobile-icon{
+    display: block;
+    margin-left: 10px;
+    width: 70%;
+}
+.mobile-icon i{
+    font-size: 25px;
+   padding-bottom: 10px;   
+}
+.icon-re{
+    margin-left: 0;
+    display: none;
+}
+.header-icon{
+    width: 30%;
+    margin-left: 80px;
+}
+.header-icon a{
+    margin-right: 5px;
+}
+.header-icon a:last-child{
+    margin-right: 0;
+}
+.header-main nav{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 30;
+    background-color: rgb(245, 245, 245);
+    padding: 20px 0;
+}
+.header-main nav ul li{
+    display: block;
+    margin-top: 10px;
+}
+.header-main nav ul li a:hover{
+    border-bottom: none;
+    color: blue;
+}
+/*End of Header Layout */
+.aboutUs-Title{
+   width: 100%;
+   height: 40vh;
+}
+.aboutUs-Title h1{
+    font-size: 40px; 
+}
+.mainSec-title{
+    padding: 20px;
+    margin-left: 0;
+}
+.mainSec{
+    height: inherit;
+}
+.mainSec-wrapper{
+    flex-direction: column;
+    padding: 50px 20px;
+}
+.a-mainSecL,.a-mainSecR{
+    width: 100%;
+}
+.a-mainSecTitle{
+    font-size: 20px;
+}
+.a-mainSecSub{
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 0;
+}
+.a-mainSecDesc{
+    font-size: 14px;
+    width: 100%;
+    line-height: 20px;
+}
+.a-mainSecL button{
+    margin-top: 10px;
+}
+.sec-values{
+    height: inherit;
+}
+.sec-valueTitle h1{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.sec-valueTitle p{
+    width: 80%;
+}
+.sec-values-wrapper{
+    flex-direction: column;
+    width: 100%;
+}
+.sec-value-wrapperEdit{
+    border-right: none;
+    border-bottom: 1px solid grey;
+}
+.sec-value-wrapperEdit:last-child{
+    border-bottom: none;
+}
+.sec-values button{
+    margin-bottom: 30px;
+}
+.sec-profile{
+    height: inherit;
+    padding: 20px;
+}
+.sec-profileWrapper{
+    padding-left: 0;
+}
+.icon-minus,.icon-plus{
+    left: 200;
+}
+.sec-profileWrapper button{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.myDIV {
+  width: 100%;
+  margin-left: 20px;
+}
+.footer{
+    height: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-wrapper{
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0;
+}
+.footLeft{
+    width: 110%;
+}
+.footLeftLogo > img{
+    width: 40px;
+    height: 40px;
+}
+.footLeftLogo > p{
+    font-size: 14px;
+    width: 100%;
+}
+.footLogoDesc >p{
+    width: 100%;
+    font-size: 12px;
+}
+.footMiddle,.footRight{
+    width: 100%;
+}
+.footMiddle > p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.footMiddle nav ul li{
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+.footwrapperTwo{
+    padding: 10px;
+    flex-direction: column;
+    justify-content:left;
+}
+.fTwoL{
+    flex-direction: column;
+    justify-content: left;
+}
+.fTwoL p{
+    margin-right: 0;
+    font-size: 12px;
+}
+.fTwoR{
+    margin: 20px 0;
+}
+.footerLabel{
+    text-align: center;
+}
+}
+@media only screen and (max-width: 325px){
+
+    .aleft{
+    margin-left: 0;
+}
+.aLeftLogo > a img{
+    margin-right: 5px;
+    width: 30px;
+    height: 40px;
+}
+.contactButton{
+    margin-left: 5px;
+}
+.mobile-icon{
+    margin-left: 10px;
+    width: 60%;
+}
+.header-icon{
+    width: 40%;
+    margin-left: 50px;
+}
+}
+
+
+
